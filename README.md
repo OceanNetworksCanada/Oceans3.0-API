@@ -10,23 +10,17 @@ For interim information until this page is complete visit: https://wiki.oceannet
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Get started](#get_started)
-- [Usage](#usage)
--  - [Client libraries](#Links_to_the existing_client_libraries)
+- [Get started](#get-started)
 - [Credits](#credits)
 - [License](#license)
 
 ## Get started
+Follow these steps to get started: 
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Links to the existing client libraries
  - [Matlab](https://github.com/OceanNetworksCanada/api-matlab-client)
  - [Python](https://github.com/OceanNetworksCanada/api-python-client)
  - [R](https://github.com/OceanNetworksCanada/api-r-client)
-## Usage
-
-
 
 ## Credits
 
