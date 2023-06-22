@@ -1,6 +1,6 @@
 # Oceans 3.0 API
 Directory for all Oceans3.0 API packages, documentation and data access examples
-*** credits: This README.md was created using the template from: https://github.com/othneildrew/Best-README-Template
+<!-- *** credits: This README.md was created using the template from: https://github.com/othneildrew/Best-README-Template -->
 
 
 <!-- PROJECT SHIELDS -->
