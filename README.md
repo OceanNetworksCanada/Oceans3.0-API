@@ -23,13 +23,14 @@ All code examples provides in our require you to replace 'YOUR_TOKEN_HERE' with 
 
 All requests require a unique Oceans 3.0 API token that authorizes you to access our data. If you don't have a token yet, generate it as follows:
 
-Register for an Oceans 3.0 account at https://data.oceannetworks.ca/Registration
-Log-in into your account at https://data.oceannetworks.ca by clicking the Login link
-Click the Profile link to access your account profile
-Access the Web Services API tab and click "Generate Token"
+ - Register for an Oceans 3.0 account at https://data.oceannetworks.ca/Registration
+ - Log-in into your account at https://data.oceannetworks.ca by clicking the Login link
+ - Click the Profile link to access your account profile
+ - Access the Web Services API tab and click "Generate Token"
 
-If you forget your token, you can always find it again in your Oceans 3.0 account profile.
+ - If you forget your token, you can always find it again in your Oceans 3.0 account profile.
 
+Our existing client libraries (subject to change!) are currently:
 
  - [Matlab](https://github.com/OceanNetworksCanada/api-matlab-client)
  - [Python](https://github.com/OceanNetworksCanada/api-python-client)
