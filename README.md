@@ -10,9 +10,9 @@ For interim information until this page is complete visit: https://wiki.oceannet
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Get started](#get started)
+- [Get started](#get_started)
 - [Usage](#usage)
--  - [Client libraries](#Links to the existing client libraries)
+-  - [Client libraries](#Links_to_the existing_client_libraries)
 - [Credits](#credits)
 - [License](#license)
 
