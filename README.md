@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the homepage for Ocean Networks Canada's API tools
+This is the homepage for Ocean Networks Canada's API tools (still under construction: June 2023)
 
 For interim information until this page is complete visit: https://wiki.oceannetworks.ca/display/O2A/Oceans+3.0+API+Home
 
@@ -30,19 +30,23 @@ All requests require a unique Oceans 3.0 API token that authorizes you to acces
 
  - If you forget your token, you can always find it again in your Oceans 3.0 account profile.
 
+This is a tutorial to get you started:
+https://github.com/OceanNetworksCanada/api-tutorial 
+
 Our existing client libraries (subject to change!) are currently:
 
  - [Matlab](https://github.com/OceanNetworksCanada/api-matlab-client)
  - [Python](https://github.com/OceanNetworksCanada/api-python-client)
  - [R](https://github.com/OceanNetworksCanada/api-r-client)
 
+## Examples
+ 
+ - [Matlab Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/MATLAB)
+ - [Python Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/Python3)
+ - [R Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/R)
+
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
@@ -50,13 +54,6 @@ The last section of a high-quality README file is the license. This lets other d
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 ## Features
 
@@ -64,7 +61,6 @@ If your project has a lot of features, list them here.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
 ## Tests
 
