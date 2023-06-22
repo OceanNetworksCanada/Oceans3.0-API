@@ -10,12 +10,13 @@ For interim information until this page is complete visit: https://wiki.oceannet
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Get started](#installation)
+- [Get started](#get started)
 - [Usage](#usage)
+-  - [Client libraries](#Links to the existing client libraries)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## Get started
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
