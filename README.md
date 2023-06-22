@@ -24,7 +24,7 @@ All code examples provides in our require you to replace 'YOUR_TOKEN_HERE' with 
 All requests require a unique Oceans 3.0 API token that authorizes you to access our data. If you don't have a token yet, generate it as follows:
 
  - Register for an Oceans 3.0 account at https://data.oceannetworks.ca/Registration
- - Log-in into your account at https://data.oceannetworks.ca by clicking the Login link
+ - Log-in into your account at https://data.oceannetworks.ca  by clicking the Login link
  - Click the Profile link to access your account profile
  - Access the Web Services API tab and click "Generate Token"
 
