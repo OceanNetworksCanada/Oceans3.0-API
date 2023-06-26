@@ -17,11 +17,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Get started
 Follow these steps to get started: 
 
-We provide documentation for Python, MATLAB and R. Pl
-All code examples provides in our require you to replace 'YOUR_TOKEN_HERE' with a token of your own.
-1. Obtaining a token
+We provide documentation for Python, MATLAB and R.
 
-All requests require a unique Oceans 3.0 API token that authorizes you to access our data. If you don't have a token yet, generate it as follows:
+All requests require a unique Oceans 3.0 API token that authorizes you to access our data. 
+### How to obtain an ONC token?
 
  - Register for an Oceans 3.0 account at https://data.oceannetworks.ca/Registration
  - Log-in into your account at https://data.oceannetworks.ca  by clicking the Login link
