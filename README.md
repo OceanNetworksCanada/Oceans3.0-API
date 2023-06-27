@@ -11,11 +11,12 @@ For interim information until this page is complete visit: https://wiki.oceannet
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Get started](#get-started)
-- [Credits](#credits)
-- [License](#license)
+- -[ONC token](#How-to-obtain-an-ONC-token?)
+- -[ONCs API tutorial](#How-to-get-started-with-ONCs-API?)
+- -[Client libraries](#Our-existing-client-libraries-(subject-to-change!))
+- -[Code examples](#Some-common-code-Examples)
+
 
 ## Get started
 Follow these steps to get started: 
@@ -32,7 +33,7 @@ All requests require a unique Oceans 3.0 API token that authorizes you to acces
 
  - If you forget your token, you can always find it again in your Oceans 3.0 account profile.
 
-### How to oget starteted with ONCs API?
+### How to get starteted with ONCs API?
 This is a tutorial to get you started:
 https://github.com/OceanNetworksCanada/api-tutorial 
 
