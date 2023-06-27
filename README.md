@@ -1,5 +1,6 @@
 # Oceans 3.0 API
 
+<img src="pics/API Home - Overview.png" alt="API Overview">
 
 
 ## Description
