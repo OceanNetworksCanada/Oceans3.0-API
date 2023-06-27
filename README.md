@@ -12,10 +12,10 @@ For interim information until this page is complete visit: https://wiki.oceannet
 ## Table of Contents (Optional)
 
 - [Get started](#get-started)
-- -[ONC token](#How-to-obtain-an-ONC-token?)
-- -[ONCs API tutorial](#How-to-get-started-with-ONCs-API?)
-- -[Client libraries](#Our-existing-client-libraries-(subject-to-change!))
-- -[Code examples](#Some-common-code-Examples)
+- --[ONC token](#How-to-obtain-an-ONC-token?)
+- --[ONCs API tutorial](#How-to-get-started-with-ONCs-API?)
+- --[Client libraries](#Our-existing-client-libraries-(subject-to-change!))
+- --[Code examples](#Some-common-code-Examples)
 
 
 ## Get started
