@@ -1,5 +1,7 @@
 # Oceans 3.0 API
 
+
+
 ## Description
 
 This is the homepage for Ocean Networks Canada's API tools (still under construction: June 2023)
@@ -29,16 +31,17 @@ All requests require a unique Oceans 3.0 API token that authorizes you to acces
 
  - If you forget your token, you can always find it again in your Oceans 3.0 account profile.
 
+### How to oget starteted with ONCs API?
 This is a tutorial to get you started:
 https://github.com/OceanNetworksCanada/api-tutorial 
 
-Our existing client libraries (subject to change!) are currently:
+### Our existing client libraries (subject to change!)
 
  - [Matlab](https://github.com/OceanNetworksCanada/api-matlab-client)
  - [Python](https://github.com/OceanNetworksCanada/api-python-client)
  - [R](https://github.com/OceanNetworksCanada/api-r-client)
 
-## Examples
+### Some common code Examples
  
  - [Matlab Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/MATLAB)
  - [Python Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/Python3)
@@ -49,18 +52,7 @@ Our existing client libraries (subject to change!) are currently:
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ---
 
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
