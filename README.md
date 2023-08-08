@@ -24,7 +24,7 @@ Follow these steps to get started:
 We provide documentation for Python, MATLAB and R.
 
 All requests require a unique Oceans 3.0 API token that authorizes you to access our data. 
-### How to obtain an ONC token?
+## How to obtain an ONC token?
 
  - Register for an Oceans 3.0 account at https://data.oceannetworks.ca/Registration
  - Log-in into your account at https://data.oceannetworks.ca  by clicking the Login link
@@ -33,17 +33,17 @@ All requests require a unique Oceans 3.0 API token that authorizes you to acces
 
  - If you forget your token, you can always find it again in your Oceans 3.0 account profile.
 
-### How to get starteted with ONCs API?
+## How to get starteted with ONCs API?
 This is a tutorial to get you started:
 https://github.com/OceanNetworksCanada/api-tutorial 
 
-### Our existing client libraries (subject to change!)
+## Our existing client libraries (subject to change!)
 
  - [Matlab](https://github.com/OceanNetworksCanada/api-matlab-client)
  - [Python](https://github.com/OceanNetworksCanada/api-python-client)
  - [R](https://github.com/OceanNetworksCanada/api-r-client)
 
-### Some common code Examples
+## Some common code Examples
  
  - [Matlab Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/MATLAB)
  - [Python Example Codes](https://github.com/OceanNetworksCanada/onc-api-example-codes/tree/main/scripts/Python3)
