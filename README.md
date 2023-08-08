@@ -5,7 +5,7 @@
 
 ## Description
 
-This is the homepage for Ocean Networks Canada's API tools (still under construction: June 2023)
+This is the homepage for Ocean Networks Canada's API tools (still under construction: August 2023)
 
 For interim information until this page is complete visit: https://wiki.oceannetworks.ca/display/O2A/Oceans+3.0+API+Home
 
