@@ -12,8 +12,8 @@ For interim information until this page is complete visit: https://wiki.oceannet
 ## Table of Contents (Optional)
 
 - [Get started](#get-started)
-- [ONC token](#how-to-obtain-an-ONC-token?)
-- [ONCs API tutorial](##how-to-get-starteted-with-oncs-api)
+- [ONC token](#how-to-obtain-an-onc-token)
+- [ONCs API tutorial](#how-to-get-starteted-with-oncs-api)
 - [Client libraries](#our-existing-client-libraries-(subject-to-change!))
 - [Code examples](#some-common-code-Examples)
 
