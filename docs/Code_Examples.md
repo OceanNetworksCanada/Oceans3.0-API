@@ -1,6 +1,6 @@
 # Code Examples
 
-## Matlab
+## MATLAB
 
 WIP
 

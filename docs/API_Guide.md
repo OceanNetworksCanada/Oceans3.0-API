@@ -10,12 +10,12 @@ Check [here](https://wiki.oceannetworks.ca/display/O2A/Glossary+of+Terms) for mo
 
 ## The ONC class
 
-The [ONC](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC) (Python) / Onc (Matlab) class provides a wrapper for Oceans 3.0 API requests.
+The [ONC](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC) (Python) / Onc (MATLAB) class provides a wrapper for Oceans 3.0 API requests.
 All the client library's functionality is provided as methods of this class.
 Each [Oceans 3.0 public API](https://data.oceannetworks.ca/OpenAPI) has a corresponding public method in this class.
 In addition, the ONC class provides some useful helper methods that involve multiple APIs to simplify the workflow.
 
-Create an ONC (Python) / Onc (Matlab) object to access this library's functionalities.
+Create an ONC (Python) / Onc (MATLAB) object to access this library's functionalities.
 
 ```python
 # Python
@@ -25,7 +25,7 @@ onc = ONC("YOUR_TOKEN_HERE")
 ```
 
 ```
-% Matlab
+% MATLAB
 onc = Onc('YOUR_TOKEN_HERE')
 ```
 
@@ -51,7 +51,7 @@ Use discovery methods to:
 
 :::
 
-|                                   API Endpoint                                   |             Description             |                                                                  Python                                                                   |        Matlab        |
+|                                   API Endpoint                                   |             Description             |                                                                  Python                                                                   |        MATLAB        |
 | :------------------------------------------------------------------------------: | :---------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :------------------: |
 |        [/locations](https://data.oceannetworks.ca/OpenAPI#get-/locations)        |          Return locations           |        [getLocations](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getLocations)        |     getLocations     |
 |   [/locations/tree](https://data.oceannetworks.ca/OpenAPI#get-/locations/tree)   |       Return a location tree        |    [getLocationsTree](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getLocationsTree)    | getLocationHierarchy |
@@ -79,7 +79,7 @@ If the data product requested doesn't exist in our archive, it will be generated
 
 :::
 
-|                                               API Endpoint                                               |                  Description                  |                                                                  Python                                                                   | Matlab              |
+|                                               API Endpoint                                               |                  Description                  |                                                                  Python                                                                   | MATLAB              |
 | :------------------------------------------------------------------------------------------------------: | :-------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | ------------------- |
 |  [/dataProductDelivery/request](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/request)  |            Request a data product             |  [requestDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.requestDataProduct)  | requestDataProduct  |
 |   [/dataProductDelivery/status](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/status)   | Check status of a <br> requested data product |    [checkDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.checkDataProduct)    | checkDataProduct    |
@@ -90,7 +90,7 @@ If the data product requested doesn't exist in our archive, it will be generated
 
 Helper methods are listed below.
 
-|                Description                |                                                               Python                                                                | Matlab           |
+|                Description                |                                                               Python                                                                | MATLAB           |
 | :---------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | ---------------- |
 | Request, run, and download a data product | [orderDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.orderDataProduct) | orderDataProduct |
 
@@ -118,7 +118,7 @@ Use the _allPages_ parameter to automatically download all pages required for yo
 
 :::
 
-|                                      API Endpoint                                      |                             Description                              |                                                                      Python                                                                       | Matlab                 |
+|                                      API Endpoint                                      |                             Description                              |                                                                      Python                                                                       | MATLAB                 |
 | :------------------------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------- |
 | [/scalardata/location](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/location) | Return scalar data <br> from a specific location and device category | [getScalardataByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardataByLocation) | getDirectByLocation    |
 |   [/scalardata/device](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/device)   |              Return scalar data from a specific device               |   [getScalardataByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardataByDevice)   | getDirectByDevice      |
@@ -127,7 +127,7 @@ Use the _allPages_ parameter to automatically download all pages required for yo
 
 Helper methods are listed below.
 
-|                                     Description                                      |                                                                     Python                                                                      | Matlab |
+|                                     Description                                      |                                                                     Python                                                                      | MATLAB |
 | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | ------ |
 | Return a list of sensor category codes <br> prior to querying the scalardata service | [getSensorCategoryCodes](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getSensorCategoryCodes) |        |
 |                                  Return scalar data                                  |          [getScalardata](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardata)          |        |
@@ -156,7 +156,7 @@ Due to security regulations, some very recent files (e.g. hydrophone.wav files i
 
 :::
 
-|                                       API Endpoint                                       |                                        Description                                         |                                                                       Python                                                                        | Matlab            |
+|                                       API Endpoint                                       |                                        Description                                         |                                                                       Python                                                                        | MATLAB            |
 | :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------- |
 | [/archivefile/location](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/location) | Return a list of available archive files <br> from a specific location and device category | [getArchivefileByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefileByLocation) | getListByLocation |
 |   [/archivefile/device](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/device)   |            Return a list of available archive files <br> from a specific device            |   [getArchivefileByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefileByDevice)   | getListByDevice   |
@@ -164,7 +164,7 @@ Due to security regulations, some very recent files (e.g. hydrophone.wav files i
 
 Helper methods are listed below.
 
-|                              Description                               |                                                                        Python                                                                         | Matlab         |
+|                              Description                               |                                                                        Python                                                                         | MATLAB         |
 | :--------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | -------------- |
 | Download a list of archived files <br> that match the filters provided | [downloadDirectArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.downloadDirectArchivefile) | getDirectFiles |
 |                Return a list of available archive files                |            [getArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefile)            |                |
