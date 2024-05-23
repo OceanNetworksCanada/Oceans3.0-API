@@ -10,7 +10,7 @@ Check [here](https://wiki.oceannetworks.ca/display/O2A/Glossary+of+Terms) for mo
 
 ## The ONC class
 
-The [ONC](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC) (Python) / Onc (MATLAB) class provides a wrapper for Oceans 3.0 API requests.
+The [ONC](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC) (Python) / Onc (MATLAB) class provides a wrapper for Oceans 3.0 API requests.
 All the client library's functionality is provided as methods of this class.
 Each [Oceans 3.0 public API](https://data.oceannetworks.ca/OpenAPI) has a corresponding public method in this class.
 In addition, the ONC class provides some useful helper methods that involve multiple APIs to simplify the workflow.
@@ -51,15 +51,15 @@ Use discovery methods to:
 
 :::
 
-|                                   API Endpoint                                   |             Description             |                                                                  Python                                                                   |        MATLAB        |
-| :------------------------------------------------------------------------------: | :---------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :------------------: |
-|        [/locations](https://data.oceannetworks.ca/OpenAPI#get-/locations)        |          Return locations           |        [getLocations](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getLocations)        |     getLocations     |
-|   [/locations/tree](https://data.oceannetworks.ca/OpenAPI#get-/locations/tree)   |       Return a location tree        |    [getLocationsTree](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getLocationsTree)    | getLocationHierarchy |
-|      [/deployments](https://data.oceannetworks.ca/OpenAPI#get-/deployments)      | Return a list of device deployments |      [getDeployments](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getDeployments)      |    getDeployments    |
-| [/deviceCategories](https://data.oceannetworks.ca/OpenAPI#get-/deviceCategories) | Return a list of device categories  | [getDeviceCategories](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getDeviceCategories) | getDeviceCategories  |
-|          [/devices](https://data.oceannetworks.ca/OpenAPI#get-/devices)          |      Return a list of devices       |          [getDevices](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getDevices)          |      getDevices      |
-|       [/properties](https://data.oceannetworks.ca/OpenAPI#get-/properties)       |     Return a list of properties     |       [getProperties](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getProperties)       |    getProperties     |
-|     [/dataProducts](https://data.oceannetworks.ca/OpenAPI#get-/dataProducts)     |   Return a list of data products    |     [getDataProducts](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getDataProducts)     |   getDataProducts    |
+|                                   API Endpoint                                   |             Description             |                                                              Python                                                               |        MATLAB        |
+| :------------------------------------------------------------------------------: | :---------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :------------------: |
+|        [/locations](https://data.oceannetworks.ca/OpenAPI#get-/locations)        |          Return locations           |        [getLocations](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getLocations)        |     getLocations     |
+|   [/locations/tree](https://data.oceannetworks.ca/OpenAPI#get-/locations/tree)   |       Return a location tree        |    [getLocationsTree](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getLocationsTree)    | getLocationHierarchy |
+|      [/deployments](https://data.oceannetworks.ca/OpenAPI#get-/deployments)      | Return a list of device deployments |      [getDeployments](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getDeployments)      |    getDeployments    |
+| [/deviceCategories](https://data.oceannetworks.ca/OpenAPI#get-/deviceCategories) | Return a list of device categories  | [getDeviceCategories](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getDeviceCategories) | getDeviceCategories  |
+|          [/devices](https://data.oceannetworks.ca/OpenAPI#get-/devices)          |      Return a list of devices       |          [getDevices](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getDevices)          |      getDevices      |
+|       [/properties](https://data.oceannetworks.ca/OpenAPI#get-/properties)       |     Return a list of properties     |       [getProperties](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getProperties)       |    getProperties     |
+|     [/dataProducts](https://data.oceannetworks.ca/OpenAPI#get-/dataProducts)     |   Return a list of data products    |     [getDataProducts](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getDataProducts)     |   getDataProducts    |
 
 ## Data product download methods
 
@@ -79,20 +79,20 @@ If the data product requested doesn't exist in our archive, it will be generated
 
 :::
 
-|                                               API Endpoint                                               |                  Description                  |                                                                  Python                                                                   | MATLAB              |
-| :------------------------------------------------------------------------------------------------------: | :-------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | ------------------- |
-|  [/dataProductDelivery/request](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/request)  |            Request a data product             |  [requestDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.requestDataProduct)  | requestDataProduct  |
-|   [/dataProductDelivery/status](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/status)   | Check status of a <br> requested data product |    [checkDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.checkDataProduct)    | checkDataProduct    |
-|      [/dataProductDelivery/run](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/run)      |         Run a requested data product          |      [runDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.runDataProduct)      | runDataProduct      |
-|   [/dataProductDelivery/cancel](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/cancel)   |         Cancel a running data product         |   [cancelDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.cancelDataProduct)   | cancelDataProduct   |
-|  [/dataProductDelivery/restart](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/restart)  |       Restart a cancelled data product        |  [restartDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.restartDataProduct)  | restartDataProduct  |
-| [/dataProductDelivery/download](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/download) |            Download a data product            | [downloadDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.downloadDataProduct) | downloadDataProduct |
+|                                               API Endpoint                                               |                  Description                  |                                                              Python                                                               | MATLAB              |
+| :------------------------------------------------------------------------------------------------------: | :-------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | ------------------- |
+|  [/dataProductDelivery/request](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/request)  |            Request a data product             |  [requestDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.requestDataProduct)  | requestDataProduct  |
+|   [/dataProductDelivery/status](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/status)   | Check status of a <br> requested data product |    [checkDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.checkDataProduct)    | checkDataProduct    |
+|      [/dataProductDelivery/run](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/run)      |         Run a requested data product          |      [runDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.runDataProduct)      | runDataProduct      |
+|   [/dataProductDelivery/cancel](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/cancel)   |         Cancel a running data product         |   [cancelDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.cancelDataProduct)   | cancelDataProduct   |
+|  [/dataProductDelivery/restart](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/restart)  |       Restart a cancelled data product        |  [restartDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.restartDataProduct)  | restartDataProduct  |
+| [/dataProductDelivery/download](https://data.oceannetworks.ca/OpenAPI#get-/dataProductDelivery/download) |            Download a data product            | [downloadDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.downloadDataProduct) | downloadDataProduct |
 
 Helper methods are listed below.
 
-|                Description                |                                                               Python                                                                | MATLAB           |
-| :---------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | ---------------- |
-| Request, run, and download a data product | [orderDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.orderDataProduct) | orderDataProduct |
+|                Description                |                                                           Python                                                            | MATLAB           |
+| :---------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ---------------- |
+| Request, run, and download a data product | [orderDataProduct](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.orderDataProduct) | orderDataProduct |
 
 ## Near real-time data access methods
 
@@ -118,20 +118,20 @@ Use the _allPages_ parameter to automatically download all pages required for yo
 
 :::
 
-|                                      API Endpoint                                      |                             Description                              |                                                                      Python                                                                       | MATLAB                 |
-| :------------------------------------------------------------------------------------: | :------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: | ---------------------- |
-| [/scalardata/location](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/location) | Return scalar data <br> from a specific location and device category | [getScalardataByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardataByLocation) | getDirectByLocation    |
-|   [/scalardata/device](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/device)   |              Return scalar data from a specific device               |   [getScalardataByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardataByDevice)   | getDirectByDevice      |
-|    [/rawdata/location](https://data.oceannetworks.ca/OpenAPI#get-/rawdata/location)    |  Return raw data <br> from a specific location and device category   |    [getRawdataByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getRawdataByLocation)    | getDirectRawByLocation |
-|      [/rawdata/device](https://data.oceannetworks.ca/OpenAPI#get-/rawdata/device)      |                Return raw data from a specific device                |      [getRawdataByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getRawdataByDevice)      | getDirectRawByDevice   |
+|                                      API Endpoint                                      |                             Description                              |                                                                  Python                                                                   | MATLAB                 |
+| :------------------------------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | ---------------------- |
+| [/scalardata/location](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/location) | Return scalar data <br> from a specific location and device category | [getScalardataByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getScalardataByLocation) | getDirectByLocation    |
+|   [/scalardata/device](https://data.oceannetworks.ca/OpenAPI#get-/scalardata/device)   |              Return scalar data from a specific device               |   [getScalardataByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getScalardataByDevice)   | getDirectByDevice      |
+|    [/rawdata/location](https://data.oceannetworks.ca/OpenAPI#get-/rawdata/location)    |  Return raw data <br> from a specific location and device category   |    [getRawdataByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getRawdataByLocation)    | getDirectRawByLocation |
+|      [/rawdata/device](https://data.oceannetworks.ca/OpenAPI#get-/rawdata/device)      |                Return raw data from a specific device                |      [getRawdataByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getRawdataByDevice)      | getDirectRawByDevice   |
 
 Helper methods are listed below.
 
-|                                     Description                                      |                                                                     Python                                                                      | MATLAB |
-| :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | ------ |
-| Return a list of sensor category codes <br> prior to querying the scalardata service | [getSensorCategoryCodes](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getSensorCategoryCodes) |        |
-|                                  Return scalar data                                  |          [getScalardata](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getScalardata)          |        |
-|                                   Return raw data                                    |             [getRawdata](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getRawdata)             |        |
+|                                     Description                                      |                                                                 Python                                                                  | MATLAB |
+| :----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | ------ |
+| Return a list of sensor category codes <br> prior to querying the scalardata service | [getSensorCategoryCodes](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getSensorCategoryCodes) |        |
+|                                  Return scalar data                                  |          [getScalardata](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getScalardata)          |        |
+|                                   Return raw data                                    |             [getRawdata](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getRawdata)             |        |
 
 ## Archive file download methods
 
@@ -156,15 +156,15 @@ Due to security regulations, some very recent files (e.g. hydrophone.wav files i
 
 :::
 
-|                                       API Endpoint                                       |                                        Description                                         |                                                                       Python                                                                        | MATLAB            |
-| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------- |
-| [/archivefile/location](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/location) | Return a list of available archive files <br> from a specific location and device category | [getArchivefileByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefileByLocation) | getListByLocation |
-|   [/archivefile/device](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/device)   |            Return a list of available archive files <br> from a specific device            |   [getArchivefileByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefileByDevice)   | getListByDevice   |
-| [/archivefile/download](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/download) |                                  Download an archive file                                  |      [downloadArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.downloadArchivefile)      | getFile           |
+|                                       API Endpoint                                       |                                        Description                                         |                                                                   Python                                                                    | MATLAB            |
+| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | ----------------- |
+| [/archivefile/location](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/location) | Return a list of available archive files <br> from a specific location and device category | [getArchivefileByLocation](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getArchivefileByLocation) | getListByLocation |
+|   [/archivefile/device](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/device)   |            Return a list of available archive files <br> from a specific device            |   [getArchivefileByDevice](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getArchivefileByDevice)   | getListByDevice   |
+| [/archivefile/download](https://data.oceannetworks.ca/OpenAPI#get-/archivefile/download) |                                  Download an archive file                                  |      [downloadArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.downloadArchivefile)      | getFile           |
 
 Helper methods are listed below.
 
-|                              Description                               |                                                                        Python                                                                         | MATLAB         |
-| :--------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | -------------- |
-| Download a list of archived files <br> that match the filters provided | [downloadDirectArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.downloadDirectArchivefile) | getDirectFiles |
-|                Return a list of available archive files                |            [getArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/onc/index.html#onc.onc.ONC.getArchivefile)            |                |
+|                              Description                               |                                                                    Python                                                                     | MATLAB         |
+| :--------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | -------------- |
+| Download a list of archived files <br> that match the filters provided | [downloadDirectArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.downloadDirectArchivefile) | getDirectFiles |
+|                Return a list of available archive files                |            [getArchivefile](https://oceannetworkscanada.github.io/api-python-client/autoapi/onc/index.html#onc.ONC.getArchivefile)            |                |
