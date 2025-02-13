@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Oceans 3.0 API"
-copyright = "2024, ONC Data Team"
+copyright = "2025, ONC Data Team"
 author = "ONC Data Team"
 
 # -- General configuration ---------------------------------------------------
